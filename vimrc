@@ -1,5 +1,7 @@
 
 " #################### COLOR
+" tmp list themes
+" retrobox, 
 colorscheme zaibatsu
 " #################### endCOLOR
 
