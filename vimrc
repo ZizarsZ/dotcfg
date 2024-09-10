@@ -1,4 +1,8 @@
 
+" #################### COLOR
+colorscheme zaibatsu
+" #################### endCOLOR
+
 " #################### OPTIONS
 set mouse=a  " enable mouse
 set encoding=utf-8
