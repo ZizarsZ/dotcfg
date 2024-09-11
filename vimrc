@@ -32,6 +32,9 @@ set shiftwidth=2
 set splitbelow
 set splitright
 
+" add count matching
+set shortmess-=S
+
 " Netrw file explorer settings
 let g:netrw_banner = 0 " hide banner above files
 let g:netrw_liststyle = 3 " tree instead of plain view
