@@ -43,6 +43,7 @@ let g:netrw_browse_split = 3 " vertical split window when Enter pressed on file
 nnoremap <space>, :nohlsearch<CR>
 nnoremap <space>n :set relativenumber!<CR>
 nnoremap <space>N :set number!<CR>
+nnoremap <space>c :set ic!<CR>
 
 " primary
 noremap <Leader>y "*y
