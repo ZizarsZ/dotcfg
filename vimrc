@@ -55,4 +55,8 @@ noremap <Leader>p "*p
 " clipboard
 noremap <space>Y "+y
 noremap <space>P "+p
+
+" resize when split window # for split V
+nnoremap <space>s vertical resize +30<CR>
+nnoremap <space>S vertical resize -30<CR>
 " #################### ENDKEYMAP
