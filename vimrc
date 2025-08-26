@@ -62,8 +62,8 @@ nnoremap <space>S vertical resize -30<CR>
 " #################### ENDKEYMAP
 
 " Run of something prog by ctr+h
-au FileType python map <buffer> <C-h> :w<CR>:exec '!python3.11' shellescape(@%, 1)<CR>
-au FileType python imap <buffer> <C-h> <esc>:w<CR>:exec '!python3.11' shellescape(@%, 1)<CR>
+au FileType python map <buffer> <C-h> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+au FileType python imap <buffer> <C-h> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
 au FileType rust map <buffer> <C-h> :w<CR>:exec '!cargo run' shellescape(@%, 1)<CR>
 au FileType rust imap <buffer> <C-h> <esc>:w<CR>:exec '!cargo run' shellescape(@%, 1)<CR>
