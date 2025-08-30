@@ -70,3 +70,7 @@ au FileType rust imap <buffer> <C-h> <esc>:w<CR>:exec '!cargo run' shellescape(@
 
 au FileType sh map <buffer> <C-h> :w<CR>:exec '!bash' shellescape(@%, 1)<CR>
 au FileType sh imap <buffer> <C-h> <esc>:w<CR>:exec '!bash' shellescape(@%, 1)<CR>
+
+" interactive python startup by ctr+i
+au FileType python map <buffer> <C-i> :w<CR>:exec '!python3 -i' shellescape(@%, 1)<CR>
+au FileType python imap <buffer> <C-i> <esc>:w<CR>:exec '!python3 -i' shellescape(@%, 1)<CR>
